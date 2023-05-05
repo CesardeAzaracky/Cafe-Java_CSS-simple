@@ -1,0 +1,95 @@
+/*----------comandos para mudar o fundo e dividir os espaços----------*/
+body{
+    margin: 2;
+    background-color: rgb(255, 255, 255);
+}
+/*--------------------------------------------------------------------*/
+/*----------comandos para centralizar todos os intens que estão em meu container----------*/
+figure{
+    align-items: center;
+    text-align: center;
+    background-color: rgba(235, 154, 4, 0.199);
+    
+}
+/*----------------------------------------------------------------------------------------*/
+/*----------comandos para formar o container e ficar está caixinha com os intens dentro-----------*/
+.container{
+    overflow: hidden;
+    width: 310px;
+    height: 570px;
+    margin: auto;  
+    border-radius: 20px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.76);
+}
+/*------------------------------------------------------------------------------------------------*/
+/*----------comandos para a linha divisória do café java e os horarios----------*/
+hr{
+    width: 285px;
+}
+/*------------------------------------------------------------------------------*/
+/*----------comandos para "café Java" e "café brasileiro" escritas----------*/
+h1{
+    font-size: 30px;
+    margin-right: 360px;
+    width: 150px;
+    height: 60px;
+}
+
+h3{
+    margin-right: 130px;
+    width: 170px;
+    height: 15px;
+}
+/*--------------------------------------------------------------------------*/
+/*----------comandos para os dias que estão abertos----------*/
+.dias{
+    margin-left: 80px;
+    width: 150px;
+    height: 15px;
+}
+/*-----------------------------------------------------------*/
+/*----------comandos para o horario----------*/
+.clock{
+    margin-right: 220px;
+}
+.horario{
+    justify-content: space-between;
+    display: flex;
+    width: 180px;
+    margin: auto;
+    margin-top: -30px;
+}
+/*------------------------------------------*/
+/*----------comandos para o café java, estrelas e marcador de kilometragem ----------*/
+.dist{
+    margin-left: 240px;
+    margin-top: -80px;
+    width: 100px;
+    display: flex;
+}
+
+.estrelas{
+   margin-left: -130px;
+}
+
+.estrelas img{
+    width: 100px;
+    margin-right: 0px;
+
+}
+
+#img{
+    width: 330px;
+    height: 200px;
+    
+}
+/*------------------------------------------------------------------------------------*/
+/*----------comandos para o "botão" reserva----------*/
+.reserva{
+    font-style: italic;
+    font-size: 35px;
+    color: rgb(115, 155, 6);
+    font-weight: bold;
+    margin-top: 30px;
+}
+/*---------------------------------------------------*/
